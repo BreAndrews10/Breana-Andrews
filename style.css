@@ -1,0 +1,177 @@
+/***************
+COMMON
+****************/
+
+body{
+    font-family: "mono-space", sans-serif;
+}
+
+.font-primary{
+    color : #00abae;
+
+}
+
+.title-icon{
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(9, 9, 9);
+}
+p{
+    font-size:14px;
+}
+h2{
+    font-weight:bold;
+    font-size:23px;
+    margin-bottom:20px;
+}
+
+a.font-black{
+    color:#000 !important;
+}
+p{
+    font-size:14px;
+}
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin: bottom 20px; ;
+}
+a.font-black{
+color:black
+}
+
+/******************
+ABOUT
+*******************/
+#about{
+    margin:60px auto;
+    max-width:400px;
+    text-align:center;
+}
+
+#about img{
+    border-radius: 50%;
+    width:200px;
+    margin-bottom:10px;
+}
+
+#about .name{
+    font-size:20px;
+}
+
+#about .vocation{
+    font-size:15px;
+    color:rgb(9, 9, 9);
+    margin-bottom:10px;
+
+}
+#about .skills{
+    font-size:14px;
+    color:#f016e196;
+    margin-bottom:10px;
+
+}
+
+#about .Email{
+    margin-top: 14px;
+    font-size:14px;
+}
+/***** for adding social media logos we need to go to bootstrap website and copy it*********/
+#about .icons{
+    margin-top:20px;
+    font-size:30px;
+}
+
+/****** for changing a color *****/
+#about .icons a{
+    color: rgba(0, 0, 0, 0.937);
+}
+
+/********************
+PROJECT
+*********************/
+#project{
+    margin:60px auto;
+    width:80%;
+}
+
+#project h2{
+    text-align: center;
+}
+
+#project .card img{
+    width:100%;
+}
+#project .card-title{
+    font-weight: bold;
+}
+.navbar{
+    align-items: center;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: hidden;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inherit;
+  }
+   .dropdown img{
+    max-width: 50px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: inherit;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  @media screen and (min-width: 400px) {
+    div.dropdown {
+      visibility:hidden;
+      float: left;
+      
+    }
+}
+
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .dropdown-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
